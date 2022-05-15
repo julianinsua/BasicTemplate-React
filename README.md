@@ -1,3 +1,39 @@
+# Basic Template - React
+This is my basic template for a Rect APP. Some general information:
+* It uses CRA as a basic mainframe
+* The code is writen using typescript
+* State management is done with MobX
+* Routing using React-Router-Dom v6
+* Linting using ESLint
+* Formated using Prettier
+
+## 1. Components
+Inside you will find a couple of components and a couple of pages. All pages are just a rough sketch in order to set up the conditions for a "ready to start" approach.
+Some of the Components and Stores you will find:
+
+* Router
+* Private Routes
+* Gated Routes, Components and Links
+* AuthUser Model and required Interfaces.
+* Containers for nav bar header and content
+* Button
+* Date picker
+* Select
+* Table
+* Form Label
+* Image Input
+* Input
+* Generic input wrapper
+* Layout component
+* Literal value component
+* Loading Circle and Loading Ring
+* Pagination Component
+* Text Area
+
+## 2. Possible next steps
+I might switch the bundler to vite since it's faster and has a lot of out of the box support
+I might add support for a store and a service to connect to a websocket.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
